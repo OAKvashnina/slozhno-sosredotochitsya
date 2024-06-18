@@ -2,3 +2,18 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --accent-color: #FF0070;
+  --bg-title: var(--accent-color, #FF0070);
+  --bg-page: #000028;
+  --title-color: #DB00FF;
+  --subtitle-color: #000028;
+  --text-color: #F1B2CE;
+  --bg-image: url("../images/cover-image-dark.png");
+  --minor-color: var(--accent-color);
+  --breakpoint: 767px;
+  --breakpoint-simulation: (100vw - var(--breakpoint));
+  --line-height: 130%;
+  --outline-hover: #FF007066;
+}

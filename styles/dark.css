@@ -3,10 +3,17 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: #FF0070;
+  --bg-title: var(--accent-color,#FF0070);
+  --bg-page: #000028;
+  --title-color: #DB00FF;
+  --subtitle-color: #000028;
+  --text-color: #F1B2CE;
+  --bg-image: url("../images/cover-image-dark.png");
+  --minor-color: var(--accent-color);
+  --outline-hover: #FF007066;
 }
+.theme_dark .header__lightbulb {
+  display: flex;
+ }
