@@ -5,7 +5,7 @@
 */
 .page.theme_dark {
   --accent-color: #FF0070;
-  --bg-title: var(--accent-color,#FF0070);
+  --bg-title: var(--accent-color, #FF0070);
   --bg-page: #000028;
   --title-color: #DB00FF;
   --subtitle-color: var(--bg-page, #000028);
@@ -14,6 +14,7 @@
   --minor-color: var(--accent-color);
   --outline-hover: #FF007066;
 }
+
 .theme_dark .header__lightbulb {
   display: flex;
- }
+}

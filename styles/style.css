@@ -87,12 +87,12 @@
 
 .header__theme-menu-button {
   border: none;
+  line-height: 100%;
   text-align: center;
   text-transform: lowercase;
   background-color: transparent;
   inline-size: 100%;
   block-size: 100%;
-  line-height: 100%;
 }
 
 .header__theme-menu-button:hover {
@@ -227,7 +227,7 @@
   text-shadow: var(--accent-color) 2px 2px;
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   :root {
     --font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -293,7 +293,7 @@
   }
 }
 
-@media (width >= 1024px) {
+@media (width >=1024px) {
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -304,6 +304,7 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .why,
   .how {
     grid-template-columns: calc((100% - 40px) / 3) 1fr;
@@ -322,5 +323,5 @@
 
   .what__card_list li {
     flex-basis: calc((100% - 40px) / 3);
-  } 
+  }
 }

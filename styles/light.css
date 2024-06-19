@@ -31,6 +31,7 @@
     --minor-color: var(--text-color, #353430);
     --outline-hover: #32312d66;
   }
+
   .header__lightbulb {
     display: none;
   }
