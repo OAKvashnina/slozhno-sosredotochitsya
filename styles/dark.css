@@ -8,7 +8,7 @@
   --bg-title: var(--accent-color,#FF0070);
   --bg-page: #000028;
   --title-color: #DB00FF;
-  --subtitle-color: #000028;
+  --subtitle-color: var(--bg-page, #000028);
   --text-color: #F1B2CE;
   --bg-image: url("../images/cover-image-dark.png");
   --minor-color: var(--accent-color);
